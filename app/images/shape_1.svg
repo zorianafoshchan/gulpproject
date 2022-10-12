@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="139" height="139" viewBox="0 0 139 139">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+        filter: url(#filter);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="69" y1="104" x2="69" y2="4" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffc35b"/>
+      <stop offset="1" stop-color="#ffdc9e"/>
+    </linearGradient>
+    <filter id="filter" x="0" y="0" width="139" height="139" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="15" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="4.472"/>
+      <feFlood result="flood" flood-color="#ffc55f" flood-opacity="0.3"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <circle id="shape_1" class="cls-1" cx="69" cy="54" r="50"/>
+</svg>

@@ -1,3 +1,3 @@
-$(function scripts() {
- $('body').hide();
-});
+// $(function scripts() {
+//  $('body').hide();
+// });
