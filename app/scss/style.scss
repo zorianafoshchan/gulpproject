@@ -27,12 +27,13 @@
 &_list-link{
  color: $title;
  transition: all .3s;
- padding-bottom: 2px;
- @extend %quicksand-400;
+ padding:0px 2px 2px;
+ @extend %roboto-400;
  &:hover{
   color: $accent;
   border-bottom: 1px solid $accent;
-  @extend %quicksand-500;
+  padding: 0px 2px 2px;
+  @extend %roboto-700;
  }
 }
 
